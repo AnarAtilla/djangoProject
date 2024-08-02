@@ -1,0 +1,10 @@
+title,author,libraries,publishing_date,category,publisher,genre,page_count,birth_date
+"1984","George Orwell","Library 3,Library 4","1949-06-08","Fiction","Secker & Warburg","Dystopian",328,"1903-06-25"
+"Pride and Prejudice","Jane Austen","Library 5,Library 6","1813-01-28","Fiction","T. Egerton, Whitehall","Romance",279,"1775-12-16"
+"The Great Gatsby","F. Scott Fitzgerald","Library 7,Library 8","1925-04-10","Fiction","Charles Scribner's Sons","Classic",180,"1896-09-24"
+"Moby-Dick","Herman Melville","Library 9,Library 10","1851-10-18","Fiction","Harper & Brothers","Adventure",585,"1819-08-01"
+"War and Peace","Leo Tolstoy","Library 1,Library 3","1869-01-01","Fiction","The Russian Messenger","Historical Novel",1225,"1828-09-09"
+"Crime and Punishment","Fyodor Dostoevsky","Library 2,Library 4","1866-01-01","Fiction","The Russian Messenger","Psychological Thriller",671,"1821-11-11"
+"The Catcher in the Rye","J.D. Salinger","Library 5,Library 7","1951-07-16","Fiction","Little, Brown and Company","Coming-of-age",277,"1919-01-01"
+"Brave New World","Aldous Huxley","Library 8,Library 10","1932-01-01","Fiction","Chatto & Windus","Dystopian",311,"1894-07-26"
+"Animal Farm","George Orwell","Library 1,Library 6","1945-08-17","Fiction","Secker & Warburg","Political Satire",112,"1903-06-25"
