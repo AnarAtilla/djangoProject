@@ -1,9 +1,5 @@
 from django.contrib import admin
 
-from .models import Book, Category, Author, Posts, Borrow, Review, AuthorDetail, Library, Publisher, Event, \
-    EventParticipant, Member
-
-
 @admin.register(Book)
 class BookAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'publisher', 'category', 'publishing_date', 'genre', 'page_count', 'is_available')

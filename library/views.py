@@ -1,10 +1,8 @@
-from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import get_object_or_404, redirect, render
-
+from django.contrib import messages
 from .models import Author, AuthorDetail, Book
-
 
 def custom_404(request, _):
     return render(request, '404.html', status=404)
