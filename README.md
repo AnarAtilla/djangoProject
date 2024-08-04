@@ -1,7 +1,7 @@
 # Project Title
 
 ## Description
-This project is a Django-based web application for managing a library. It allows users to view book details, manage their accounts, and perform other library-related tasks.
+This project is a Django-based web application for managing a library and a task manager. It allows users to view book details, manage their accounts, and perform other library-related tasks. Additionally, it provides functionality to manage tasks and categories.
 
 ## Setup
 1. **Clone the repository**:
@@ -44,37 +44,37 @@ This project is a Django-based web application for managing a library. It allows
     - Go to `http://127.0.0.1:8000/accounts/login/` to log in.
     - Use the credentials created during the superuser setup to access the admin site at `http://127.0.0.1:8000/admin/`.
 
-## Contributing
-1. **Fork the repository**:
-    Click the "Fork" button on the repository's GitHub page.
+## Features
+- **Library Management**
+  - Manage books, authors, and categories.
+  - User authentication and registration.
+  - Book borrowing and returning.
 
-2. **Clone your fork**:
-    ```bash
-    git clone <your_fork_url>
-    cd <repository_name>
-    ```
+- **Task Manager**
+  - Manage tasks and categories.
+  - View task lists and category lists.
 
-3. **Create a branch**:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-4. **Make your changes**:
-    Implement your feature or fix the bug.
-
-5. **Commit your changes**:
-    ```bash
-    git add .
-    git commit -m "Description of your changes"
-    ```
-
-6. **Push to your fork**:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-7. **Submit a pull request**:
-    Go to the original repository on GitHub and click "New pull request".
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+## Project Structure
+ project/
+├── program1/
+│   ├── migrations/
+│   ├── templates/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+├── program2/
+│   ├── migrations/
+│   ├── templates/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+├── templates/
+│   ├── base.html
+├── manage.py
+├── requirements.txt
