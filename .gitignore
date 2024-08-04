@@ -1,0 +1,27 @@
+.env
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+Env/
+env.bak/
+venv.bak/
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+
+# Local settings
+local_settings.py
