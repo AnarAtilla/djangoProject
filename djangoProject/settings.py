@@ -1,6 +1,6 @@
 import os
-from dotenv import load_dotenv
 from pathlib import Path
+from dotenv import load_dotenv
 
 load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY')
@@ -22,7 +22,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'library',  # Добавьте ваше приложение здесь
+    'library',
+    'task_manager'
 ]
 
 MIDDLEWARE = [
@@ -104,5 +105,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'library:home'
+LOGOUT_REDIRECT_URL = 'library:home'

@@ -1,6 +1,6 @@
-from django.utils import timezone
-from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
+from django.db import models
+from django.utils import timezone
 
 GENDER_CHOICES = [
     ('Male', 'Male'),

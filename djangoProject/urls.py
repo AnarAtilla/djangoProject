@@ -1,9 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
-from . import views
+from djangoProject import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('library.urls')),
-    path('book/<int:book_id>/', views.book_detail, name='book_detail'),
+    path('', views.djangohome, name='djangohome'),
+    path('library/', include('library.urls')),
+    path('task_manager/', include('task_manager.urls')),
 ]
